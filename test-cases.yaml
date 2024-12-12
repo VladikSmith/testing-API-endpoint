@@ -7,8 +7,7 @@ years: 1
 Шаги: 
 1. в параметрах запроса передаем timestamp=2024-12-09&years=1
 Ожидаемый результат:
-
-Успешный ответ (ĸод 200):
+	Успешный ответ (ĸод 200):
 	{
 	"sum": "Tue Dec 09 2025 00:00:00 GMT+0000"
 	}
@@ -22,8 +21,7 @@ timestamp: 2024-02-31
 Шаги: 
 1. в параметрах запроса передаем timestamp=2024-02-31
 Ожидаемый результат:
-
-Bad Request (ĸод 400):
+	Bad Request (ĸод 400):
 	{
 	"level": "error",
 	"message": "Invalid days in `timestamp` query param"
@@ -37,8 +35,7 @@ Bad Request (ĸод 400):
 Шаги: 
 1. в параметрах запроса передаем timestamp=2024-02-31
 Ожидаемый результат:
-
-Bad Request (ĸод 400):
+	Bad Request (ĸод 400):
 	{
 	"level": "error",
 	"message": "timestamp is required"
