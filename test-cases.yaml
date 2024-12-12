@@ -35,8 +35,4 @@ timestamp: 2024-02-31
 Шаги: 
 1. в параметрах запроса передаем timestamp=2024-02-31
 Ожидаемый результат:
-	Bad Request (ĸод 400):
-	{
-	"level": "error",
-	"message": "timestamp is required"
-	}
+
